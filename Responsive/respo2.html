@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>show different images depending on browser width</h2>
+<p>resize the browser width and the image will change at 600px and 1500px</p>
+
+<picture>
+    <source srcset="./images/i1.jpg" media="(max-width: 600px)">
+    <source srcset="./images/i2.jpg" media="(max-width: 1500px)">
+    <source srcset="./images/i3.jpg" >
+    <img src="./images/i4.jpg" alt="bg image" style="width:auto;">
+</picture>
+<body>
+    
+</body>
+</html>
