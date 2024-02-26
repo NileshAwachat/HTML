@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+          color: red;
+          font-weight: bold;
+        }
+
+        
+            
+        label,button,input{
+            width: 200px;
+            display: inline-block;
+            text-align: right;
+            
+        }
+        
+        </style>
+</head>
+<body>
+    <label for="lab" >First name<span>*</span></label>
+           
+            <input type="text" id="lab" name="lab"><br><br>
+
+    <label for="lab2">Last Name:</label>
+    <input type="text" id="lab2" name="lab2"><br><br>
+
+    <label for="lab3">Phone Number</label>
+    <input type="text" id="lab3" name="lab3"><br><br>
+
+    <label for="lab4">Date Time</label>
+    <input type="date" id="lab4" name="lab4"><br><br>
+
+    <label>City  </label>
+    <input list="browsers">
+        <datalist id="browsers">
+            <option value="NGP">
+            <option value="HYD">
+            <option value="DL">
+            <option value="PN">
+            <option value="BL">   
+         </datalist><br><br>
+        <hr>
+         <button type="button">Complete task</button>
+         <input type="reset" value="Reset">
+
+    
+</body>
+</html>
